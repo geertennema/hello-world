@@ -6,7 +6,7 @@ def hoogteBoete(speed):
     if speed < (MIN_SPEED + 5):
         return "OK"
     elif speed > MAX_SPEED:
-        return "Rijbewijs ingenomen"
+        return "Rijbewijs foetsie"
     else:
         speed -= MIN_SPEED
         boete = int(speed / 5)
